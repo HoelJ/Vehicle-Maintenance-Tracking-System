@@ -8,22 +8,22 @@
 
 <body>
     <form method="post" action="new-service-record.php">
-        <label style="font-size: 40px">Service ID</label>
+        <label style="font-size: 35px">Service ID</label>
         <input type="text" name="service_ID">
     <br>
-        <label style="font-size: 40px">Vehicle Identification Number</label>
+        <label style="font-size: 35px">Vehicle Identification Number</label>
         <input type="text" name="VIN">
     <br>
-        <label style="font-size: 40px">Service Date</label>
+        <label style="font-size: 35px">Service Date (YYYY-MM-DD)</label>
         <input type="text" name="service_date">
     <br>
-        <label style="font-size: 40px">Type of Service</label>
+        <label style="font-size: 35px">Type of Service</label>
         <input type="text" name="service_type">
     <br>
-        <label style="font-size: 40px">Status</label>
+        <label style="font-size: 35px">Status</label>
         <input type="text" name="service_status">
     <br>
-        <label style="font-size: 40px">Cost of Service</label>
+        <label style="font-size: 35px">Cost of Service</label>
         <input type="text" name="service_cost">
     <br>
         <input type="submit" value="Confirm">
